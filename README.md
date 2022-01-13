@@ -11,7 +11,7 @@ Projeto com o estado inicial padrão do banco de dados para a torre de controle
 
 ## Funcionamento
 
-# Popular o banco de dados
+### Popular o banco de dados
 
 Com o container torreControleAPI já rodando, executar o comando: ]
 
@@ -20,7 +20,7 @@ Com o container torreControleAPI já rodando, executar o comando: ]
 $ docker-compose up
 ```
 
-# Para adicionar uma nova coleção:
+### Para adicionar uma nova coleção:
 
 - Adicionar o arquivo JSON em /collections
 - No Dockerfile, adicionar o comando para copiar o arquivo para dentro do container:
@@ -32,7 +32,7 @@ $ COPY collections/<NOME DO ARQUIVO>.json /collections/<NOME DO ARQUIVO>.json
 $ mongoimport --drop --host mongodb --port 27017 --username admin --password admin --authenticationDatabase admin --db torre-controle --collection <NOME DA COLLECTION> --type json --jsonArray --file /collections/<NOME DO ARQUIVO>.json
 ```
 
-# Pontos de atenção
+### Pontos de atenção
 
 - O container torreControleAPI já deve estar rodando ao executar o comando
 - O commando apaga dados previamente disponíveis na collection. Caso deseje apenas atualizar os dados, alterar o comando de importaçao de --drop para --upsert
