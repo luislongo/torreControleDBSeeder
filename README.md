@@ -31,6 +31,10 @@ $ COPY collections/<NOME DO ARQUIVO>.json /collections/<NOME DO ARQUIVO>.json
 ```bash
 $ mongoimport --drop --host mongodb --port 27017 --username admin --password admin --authenticationDatabase admin --db torre-controle --collection <NOME DA COLLECTION> --type json --jsonArray --file /collections/<NOME DO ARQUIVO>.json
 ```
+- Caso o arqivo .JSON possua mais de 100MB, deverá ser upado pelo [GitLFS](https://docs.github.com/pt/repositories/working-with-files/managing-large-files/configuring-git-large-file-storage). Adicionar a linha ao arquivo /collections/.gitattributes:
+```bash
+$ - <NOME DO ARQUIVO>.json filter=lfs diff=lfs merge=lfs -text
+```
 
 ### Pontos de atenção
 
