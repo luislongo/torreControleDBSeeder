@@ -1,0 +1,9 @@
+version: '3'
+services:
+        mongo_seeder:
+          build: .
+          networks:
+            - torrecontroleapi_torre-controle-network
+networks:
+  torrecontroleapi_torre-controle-network:
+    external: true

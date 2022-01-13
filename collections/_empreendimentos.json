@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "61a4be32b11e837a9c50fb48"
+  },
+  "idbuilding": "85B45034-8935-423A-80E9-23D30804C35B",
+  "custo": {
+    "total": 591098.085975264,
+    "totalSemBDI": 465431.5637600503,
+    "material": 437416.59261796944,
+    "equipamento": 2091.287383053339,
+    "transporte": 0,
+    "maoDeObra": 149286.60104712212,
+    "tercerizado": 0,
+    "verba": 2209.8,
+    "comissionamento": 0,
+    "outro": 93.80492711897936
+  },
+  "dados": {
+    "total": "AltoQi Connect",
+    "pais": "pt-BR",
+    "estado": "SC",
+    "cidade": "Florianópolis",
+    "endereco": "Avenida Mauro Ramos, 1389",
+    "cliente": "AltoQi",
+    "decricao": "Obra BIM",
+    "areaConstruida": 350,
+    "areaTerreno": 520,
+    "bdi": 27
+  }
+},{
+  "_id": {
+    "$oid": "61a4c003b11e837a9c517742"
+  },
+  "idbuilding": "91E9A4F4-2AC8-4DEC-82FC-5DF2AE127717",
+  "custo": {
+    "total": 2471715.0568936635,
+    "totalSemBDI": 1932990.5817577841,
+    "material": 2185694.1821946185,
+    "equipamento": 10626.01884389314,
+    "transporte": 0,
+    "maoDeObra": 275274.21769448696,
+    "tercerizado": 0,
+    "verba": 0,
+    "comissionamento": 0,
+    "outro": 120.63816067278125
+  },
+  "dados": {
+    "total": "Village Brun",
+    "pais": "pt-BR",
+    "estado": "SC",
+    "cidade": "Florianópolis",
+    "endereco": "Coqueiros",
+    "cliente": "Newton Neto",
+    "decricao": "Obra BIM",
+    "areaConstruida": 2350,
+    "areaTerreno": 660,
+    "bdi": 27.87
+  }
+},{
+  "_id": {
+    "$oid": "61a4e132b11e837a9c5c2514"
+  },
+  "idbuilding": "2D47FCA5-36C1-47D2-9E75-34F150760DAA",
+  "custo": {
+    "total": 26735869.778478567,
+    "totalSemBDI": 26735869.778478567,
+    "material": 18565767.191105433,
+    "equipamento": 127878.94881715058,
+    "transporte": 0,
+    "maoDeObra": 5517287.147011887,
+    "tercerizado": 2254700.067113507,
+    "verba": 203740,
+    "comissionamento": 0,
+    "outro": 66496.4244305398
+  },
+  "dados": {
+    "total": "MARTIN SEHNER",
+    "pais": "pt-BR",
+    "estado": "AL",
+    "cidade": "MACEIÓ",
+    "endereco": "RUA PAULINA MARIA DE MENDONÇA, JATIÚCA",
+    "cliente": "UCHÔA CONSTRUÇÕES",
+    "decricao": "ORÇAMENTO EXECUTIVO",
+    "areaConstruida": 100,
+    "areaTerreno": 360,
+    "bdi": 0
+  }
+}]
